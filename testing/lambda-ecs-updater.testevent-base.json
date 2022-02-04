@@ -1,0 +1,6 @@
+{
+  "ecs_cluster_name": "ECSCluster",
+  "ecs_service_name" : "ecs-dummy-service",
+  "ecs_image_name" : "nginx",
+  "ecs_tag" : { "updated-tag-name": "updated-tag-value" }
+}

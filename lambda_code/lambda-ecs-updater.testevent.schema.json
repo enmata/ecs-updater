@@ -1,0 +1,30 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://example.com/object1642101103.json",
+	"title": "ecs-updater-json-request",
+	"type": "object",
+	"required": [
+		"ecs_cluster_name",
+		"ecs_service_name",
+		"ecs_image_name",
+		"ecs_tag"
+	],
+	"properties": {
+		"ecs_cluster_name": {
+			"title": "Ecs_cluster_name",
+			"type": "string"
+		},
+		"ecs_service_name": {
+			"title": "Ecs_service_name",
+			"type": "string"
+		},
+		"ecs_image_name": {
+			"title": "Ecs_image_name",
+			"type": "string"
+		},
+		"ecs_tag": {
+			"title": "Ecs_tag",
+			"type": "object"
+		}
+	}
+}

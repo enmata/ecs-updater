@@ -1,0 +1,11 @@
+{
+	"ecs_cluster_name": "ECSCluster",
+	"ecs_service_name": "ecs-dummy-service",
+	"ecs_image_name": {
+		"title": "this is not",
+		"type": "just a string"
+	},
+	"ecs_tag": {
+		"updated-tag-name": "updated-tag-value"
+	}
+}
